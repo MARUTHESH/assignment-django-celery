@@ -15,7 +15,13 @@ On Linux, execute the following commands (first time setup)
 1. python manage.py migrate
 2. python manage.py runserver 0:8000
 3. open any of the browser and enter localhost:8000/api in url field
-
+4. post the request to the url http://localhost:8000/api/assignment/ with the below json
+```json
+{
+    "email": "myemail@email.com",
+    "website_urls": "['https://stackoverflow.com', 'https://www.adnabu.com/']"
+}
+```
 ## Create the user
 1. python manage.py createsuperuser
 
