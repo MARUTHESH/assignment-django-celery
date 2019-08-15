@@ -27,3 +27,10 @@ On Linux, execute the following commands (first time setup)
 
 ## Running the celery in background
 1. celery -A assignment worker -B -l info &
+
+---
+**NOTE**
+
+Provide EMAIL_HOST_USER and EMAIL_HOST_PASSWORD in settings.py
+
+---
